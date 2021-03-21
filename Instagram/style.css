@@ -37,5 +37,45 @@ body {
 }
 
 .instagram-phone img {
-    height: 50ren;
+    height: 50rem;
+}
+
+.instagram-continue{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* horizontal */
+    flex-direction: column; /* Faz com que um fique em baixo do outro ( mudamos o eixo para coluna )*/
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between; /* vertical */
+    align-items: center; /* horizontal */
+    flex-direction: column; /* modifica o justify-content e o align-items */
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.group:nth-child(1){ /* Seletor de css que pega os filhos daquele elemento (como se a classe grupo fosse um vetor ) */
+    min-height: 19rem;
+}
+
+.instagram-logo {
+    height: 3rem;
+}
+
+.profile-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden; /* Esconde tudo oque for saltar para fora da Div */
+}
+
+.profile-photo img{
+    height: 12rem;
 }
