@@ -1,0 +1,37 @@
+/* Resetando alguns estilos primeiramente */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Joga todo o conteúdo para o centro */
+}
+
+.instagram-wrapper {
+    display: flex; /* Display flex ( alinha os items em linha ) */
+    align-items: center; /* Faz o alinhamento vertical dos itens ( eixo y )  */
+    /*justify-content: center;  Faz o alinhamento horizontal dos itens ( eixo x )  */
+
+    justify-content: start; /* começar da esquerda para direita */
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
