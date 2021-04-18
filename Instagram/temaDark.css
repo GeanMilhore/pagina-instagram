@@ -5,6 +5,7 @@
     position: absolute;
     top: 2%;
     left: 65%;
+    margin-bottom: 5px;
 }
 
 .darkTheme{
@@ -67,7 +68,6 @@
     transition: all .4s;
 }
 
-
 .dark-group{
     background-color: #232424;
     border: 1px solid rgb(73, 73, 73);
@@ -78,3 +78,24 @@
     color: rgb(182, 182, 182);
 }
 
+@media (max-width: 650px){
+    .container-btnDark{
+        top:2%;
+        left: 40%;
+    }
+
+}
+
+@media (max-width: 320px){
+    .container-btnDark{
+        top:2%;
+        left: 30%;
+    }
+
+}
+
+@media(max-height: 630px){
+    .container-btnDark{
+        display: none;
+    }
+}
