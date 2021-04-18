@@ -8,7 +8,7 @@ Neste projeto implementei a tela inicial de login do Instagram, adicionando bot�
 
 !["light-theme"](/Instagram/Img/light-theme.png "Imagem light")
 
-feita com __*3 divs*__, o local onde se apresentam *telefone, informações de login* e o local onde permanece o *botão* de mudança<br> de tema.
+feita com __*3 divs*__, o local onde se apresentam *telefone, informações de login* e o local onde permanece o *botão* de mudança de tema.
 
 ### como resumo do HTML temos.
 ```
@@ -26,7 +26,7 @@ feita com __*3 divs*__, o local onde se apresentam *telefone, informações de l
 
 !["dark-theme"](/Instagram/Img/dark-theme.png "Imagem dark")
 
-após o clique no botão de switch acima temos a mudança de tema para o modo noite, implementado através da mundança<br> de classes com o __*JavaScript*__, nele eu adiciono a classe de modo dark, nas parte visuais da página<br> ( como a classe group, ou instagram-logo por exemplo).
+após o clique no botão de switch acima temos a mudança de tema para o modo noite, implementado através da mundança de classes com o __*JavaScript*__, nele eu adiciono a classe de modo dark, nas parte visuais da página ( como a classe group, ou instagram-logo por exemplo ).
 
 ### parte do código JavaScript
 
@@ -41,6 +41,6 @@ tema.addEventListener('change',function(){
 
 ```
 
-a função __*toggle*__ em javaScript adiciona a classe caso o elemento não há possua e remove a classe caso a classe já possua, <br> aqui colocamos o tema dark em duas divs da classe group através da variavel groups ( um array de elementos ). 
+a função __*toggle*__ em javaScript adiciona a classe caso o elemento não há possua e remove a classe caso a classe já possua, aqui colocamos o tema dark em duas divs da classe group através da variavel groups ( um array de elementos ). 
 
 ## ( Projeto implementado durante uma aula na Digital Innovation One :pencil2: ) 
