@@ -41,6 +41,6 @@ tema.addEventListener('change',function(){
 
 ```
 
-a função __*toggle*__ em javaScript adiciona a classe caso o elemento não há possua e remove a classe caso a classe já possua, aqui colocamos o tema dark em duas divs da classe group através da variavel groups ( um array de elementos ). 
+a função __*toggle*__ em javaScript adiciona a classe caso o elemento não possua e remove caso o elemento já contenha a classe, aqui colocamos o tema dark em duas divs da classe group através da variavel groups ( um array de elementos ). 
 
 ## ( Projeto implementado durante uma aula na Digital Innovation One :pencil2: ) 
