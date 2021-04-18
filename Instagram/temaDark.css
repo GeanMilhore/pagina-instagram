@@ -3,7 +3,6 @@
     display: flex;
     align-items: center;
     position: absolute;
-    width: 100vw;
     top: 2%;
     left: 65%;
 }
@@ -23,6 +22,7 @@
     width: 70px;
     height: 35px;
     border-radius: 60px;
+    cursor:pointer;
 }
 
 .switch--shadow + label{
@@ -58,7 +58,7 @@
 }
 
 .switch--shadow:checked + label:before{
-    background-color: #92f592;
+    background-color: #21a0f5;
     transition: all .4s;
 }
 
@@ -66,3 +66,15 @@
     transform: translateX(35px);
     transition: all .4s;
 }
+
+
+.dark-group{
+    background-color: #232424;
+    border: 1px solid rgb(73, 73, 73);
+    color: white;
+}
+
+.white-uv{
+    color: rgb(182, 182, 182);
+}
+
