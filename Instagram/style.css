@@ -29,6 +29,26 @@ body {
     height: 100vh;
 }
 
+.btn-theme{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-dark{
+    position: relative;
+    left: 70%;
+    border: none;
+    background-color: rgb(119, 118, 118);
+    cursor: pointer;
+    padding: 0.8rem;
+    color: white;
+}
+
+.btn-dark:focus{
+    outline: none;
+}
+
 .instagram-phone {
     display: flex;
     align-items: center;
